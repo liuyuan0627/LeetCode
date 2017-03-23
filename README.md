@@ -1,3 +1,3 @@
 # LeetCode
 
-Record the solution of LeetCode.
+Study coding everyday.
