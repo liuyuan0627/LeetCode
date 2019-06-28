@@ -19,3 +19,4 @@ class Solution(object):
             if target - nums[i] in nums[i+1:]:
                 j = nums[i+1:].index(target - nums[i])
                 return [i, i+j+1]
+            
