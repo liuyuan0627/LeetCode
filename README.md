@@ -1,3 +1,3 @@
 # LeetCode
 
-Study coding everyday.
+Learn coding everyday.
