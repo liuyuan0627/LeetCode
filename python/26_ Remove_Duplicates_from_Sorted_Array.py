@@ -4,6 +4,14 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        nums[:] =  sorted(set(nums))
+        # solution 1
+        """
+        nums[:] = list(set(nums))
+        nums.sort()
+        return len(nums)
+        """
+    
+        # solution 2
+        nums[:] = sorted(set(nums))
         return len(nums)
         
