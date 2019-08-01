@@ -16,7 +16,7 @@ class Solution(object):
         while l < r:
             m = l + (r - l) / 2
             if isBadVersion(m) is True:
-                r = m - 1
+                r = m
             else:
                 l = m + 1
         return l
